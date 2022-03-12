@@ -19,7 +19,7 @@ function date(callback) {
   setTimeout(function () {
     let date = new Date();
     callback(date);
-  }, 0);
+  }, 3000);
 }
 function printDate(dateNow) {
   console.log(`Funcion printDate ${dateNow}`);
